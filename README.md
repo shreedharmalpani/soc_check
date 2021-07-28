@@ -14,7 +14,7 @@ Pytorch being more pythonic, involves Object Oriented Prograaming Paradigm and h
 <br/>
 ## Implementation:
 \
-We were supposed to code a feed forward neural net model for Sentiment analysis( Classification Task) on [IMDB moview review dataseet](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) from kaggle. I started by first importing and conducting Exploratory data Analysis(EDA) and got the gist of the data distribution. Then used nltk and re library for preprocessing task, Started with a 2 hidden layer neural net with 500 neurons each and used the cross entropy loss function and Adaptive moment estimation(adam) optmiser for back propagation of the loss function updating the parameters of the network. The f1 score was not too pleasing, obviously it required _hyperparameter tuning_, I finally resorted to 3 hidden layer model with a softmax activation function in the output layer. 
+We were supposed to code a feed forward neural net model for Sentiment analysis( Classification Task) on [IMDB moview review dataset](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) from kaggle. I started by first importing and conducting Exploratory data Analysis(EDA) and got the gist of the data distribution. Then used nltk and re library for preprocessing task, Started with a 2 hidden layer neural net with 500 neurons each and used the cross entropy loss function and Adaptive moment estimation(adam) optmiser for back propagation of the loss function updating the parameters of the network. The f1 score was not too pleasing, obviously it required _hyperparameter tuning_, I finally resorted to 3 hidden layer model with a softmax activation function in the output layer. 
 \
 
 ## Phase 2-  (17th May to 31st May)
