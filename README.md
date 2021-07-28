@@ -6,7 +6,7 @@ I am Shreedhar Malpani (200020132) and this is my repository for my SOC 2021 pro
 
  ## Phase 1- (22th March to 15th April)
 \
-The first week started with getting familiar with `pytorch` by implementing basic tensor operations and a feed forward neural network for classification task on MNIST-dataset. Along, with that we got introduced to a very powerful text processing library in python which is nltk , it provides utility functions for data preprocessing/cleaning task such as removing stopwords,punctuations, Stemming and Lemmatization task , tokenisation of corpus, etc.
+The first week started with getting familiar with pytorch by implementing basic tensor operations and a feed forward neural network for classification task on MNIST-dataset. Along, with that we got introduced to a very powerful text processing library in python which is nltk , it provides utility functions for data preprocessing/cleaning task such as removing stopwords,punctuations, Stemming and Lemmatization task , tokenisation of corpus, etc.
 \
 <br/>
 Pytorch being more pythonic, involves Object Oriented Prograaming Paradigm and hence the implementation of the neural Architecture was more intuitive and expressive. Since a computer program cannot take string/word as input , hence the corpus of text used in training must be converted into numeric form which is done using word vector or word embedding. 
@@ -28,10 +28,10 @@ We were supposed to now implement our sentiment analysis model using RNN (Recurr
 
 ## Phase 3- (4th July to 17th July)
 
-Got introduced to State-of-the Art Encoder-Decoder based Transformer models.It solved some major bottlenecks in using Recurrent neural architecture like LSTM,GRU. LSTM/GRU, i.e the Gradient vanishing and EXploding and one shot parallel data feeding. The mathematics behind self attention mechanism and it's importance is really useful not only for NLP tasks but also vision and other downstream tasks. Going Ahead, I learnt about different architectures like BERT which is a only Encoder transformer. There have been lots of other architecture created out of BERT naming a few-  BERT & `DistilBERT`. DistilBERT is a distiled version of BERT with almost half the parameters but fast and gives similar types of results. 
+Got introduced to State-of-the Art Encoder-Decoder based Transformer models.It solved some major bottlenecks in using Recurrent neural architecture like LSTM,GRU. LSTM/GRU, i.e the Gradient vanishing and EXploding and one shot parallel data feeding. The mathematics behind self attention mechanism and it's importance is really useful not only for NLP tasks but also vision and other downstream tasks. Going Ahead, I learnt about different architectures like BERT which is a only Encoder transformer. There have been lots of other architecture created out of BERT naming a few-  BERT & DistilBERT. DistilBERT is a distiled version of BERT with almost half the parameters but fast and gives similar types of results. 
 
 ### Implementation:- 
-* Created a Sentiment Classifier with BERT architecture( bert-base-uncased)
+Created a Sentiment Classifier with BERT architecture( bert-base-uncased)
 
 The  HuggingFace library proviides various open-source pre-trained models for quick integration with easy to use API and highly user-friendly. Transformers package Documentation was really helpful while using the Transformer models for transfer learning task(Fine tuning)
 
