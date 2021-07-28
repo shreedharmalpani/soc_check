@@ -26,7 +26,7 @@ Keeping the preprocessing process same, made changes in the nn Module sub-class'
 We were supposed to now implement our sentiment analysis model using RNN (Recurrent Neural Networks), LSTM ( Long Short Term Memory) and GRU (Gated Recurrent Unit) and achieved accuracies of 82.78 %, 86.20 %, 85.45 % respectively.
 \
 
-## Phase 3- (4th July to 17th July)
+## Phase 3- (4th July to 17th July) + extension (17th July to 24th July)
 
 Got introduced to State-of-the Art Encoder-Decoder based Transformer models.It solved some major bottlenecks in using Recurrent neural architecture like LSTM,GRU. LSTM/GRU, i.e the Gradient vanishing and EXploding and one shot parallel data feeding. The mathematics behind self attention mechanism and it's importance is really useful not only for NLP tasks but also vision and other downstream tasks. Going Ahead, I learnt about different architectures like BERT which is a only Encoder transformer. There have been lots of other architecture created out of BERT naming a few-  BERT & DistilBERT. DistilBERT is a distiled version of BERT with almost half the parameters but fast and gives similar types of results. 
 
